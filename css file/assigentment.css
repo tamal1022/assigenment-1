@@ -39,7 +39,7 @@
 /* hader-style */
 .bg-img{ 
   background-image: url(../B12A01-landing-launchpad/Assets/Hero-bg.png);
- height:699px;
+ height:100vh;
  background-size: cover;
  background-repeat: no-repeat;
  
@@ -55,16 +55,30 @@
   
 }
 .div-style{
-     width:900px;
-     height: 200px;
-    
-    font-weight: 500;
-    font-size: 65px;
-    
-    text-align: center;
-    margin:250px 260px;
-  
+   text-align: center;
+  padding: 300px 260px 152px 260px;
+  display: flex;
+  flex-direction: column;
+  gap:30px;
+  align-items: center;
 }
+
+
+
+.header-title{
+    font-size: 65px;
+    font-weight: 700px;
+    
+}
+
+.stay-focused{
+
+    width: 170px;
+    height: 45px;
+}
+
+
+/* main */
 
 /* section */
 .section1{
