@@ -97,6 +97,8 @@
    padding-top:12px;
    padding-bottom: 35px;
     color: #252432;
+    opacity: 0.5;
+    
 }
 
 /* section1-img */
@@ -111,7 +113,35 @@
 /* section2 */
 
 .section2{
-    background-color: #4E47FF;
+    background-color:rgba(78, 71, 255, 0.1);
+    width: 1223px;
+    height:250px;
+    margin:100px 150px 10px 141px;
+   
+}
+
+.section2-title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400px;
+    padding-top:30px;
+    padding-bottom:25px;
+}
+
+.section3-card{
+    display: flex;
+    justify-content:space-between;
+}
+
+
+.user-number{
+    display: flex;
+    justify-content: space-around;
+}
+
+.number-style{
+    font-size:75px;
+    font-weight:450px;
 }
 
 
