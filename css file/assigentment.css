@@ -252,6 +252,35 @@ justify-content:space-between;
 }
 
 
+/* footer */
+footer{
+margin-top: 104px;
+}
+.footer-style{
+
+text-align: center;
+font-size:80px;
+font-weight: 800;
+}
+.para{
+    text-align: center;
+    margin: 0 455px;
+    color: #C1C1C1;
+}
+
+
+
+.footer-links{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    
+    gap: 15px;
+}
+.footer-links li a {
+        text-decoration: none;
+        color: #8987A1;
+    }
 
 /* shared style */
 
