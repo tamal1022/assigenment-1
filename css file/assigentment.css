@@ -209,6 +209,50 @@ main{ max-width: 1140px;
   padding:25px;
 
 }
+
+
+
+/* last section */
+
+.create-form{
+   margin-top:90px ;
+display: flex;
+align-items: center;
+justify-content:space-between;
+}
+
+.form-heading{
+    font-size:75px;
+    font-weight:700;
+    padding:200px 0;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    
+}
+.form-group input[type="email"],
+.form-group input[type="text"],
+.form-group textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #D6DDED;
+    border-radius: 10px;
+    font-size:30px;
+    box-sizing: border-box; 
+    background-color:rgb(255 255 255); 
+    
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    font-size:15px;
+}
+
+
+
 /* shared style */
 
 .shared-text-color {
@@ -222,4 +266,9 @@ main{ max-width: 1140px;
     border: none;
     border-radius: 10px;
     padding: 10px 30px;
+}
+
+.button-style:hover{
+   background-color: green;
+   box-shadow: 2px 4px 9px red;
 }
